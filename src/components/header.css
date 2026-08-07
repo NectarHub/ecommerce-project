@@ -39,7 +39,7 @@
 }
 
 .header .logo {
-  height: 26px;
+  height: 28px;
   margin-top: 1px;
 }
 
@@ -54,8 +54,8 @@
 
   .header .mobile-logo {
     display: block;
-    height: 26px;
-    margin-top: 1px;
+    height: 35px;
+    margin-top: 5px;
   }
 }
 
@@ -110,6 +110,10 @@
   align-items: center;
   padding-left: 13px;
   padding-right: 13px;
+}
+
+.header .orders-link.active {
+  text-decoration: underline;
 }
 
 .header .orders-text {
