@@ -38,6 +38,11 @@
   border-top-right-radius: 5px;
 }
 
+.product-details{
+  display: flex;
+  flex-direction: column;
+}
+
 .orders-page .order-header-left-section {
   display: flex;
   flex-shrink: 0;
