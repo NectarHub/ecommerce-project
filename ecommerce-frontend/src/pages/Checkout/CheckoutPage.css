@@ -32,6 +32,10 @@
   align-items: start;
 }
 
+.quantity-textbox{
+  width: 50px;
+}
+
 @media (max-width: 1000px) {
   .checkout-page .main {
     max-width: 500px;
