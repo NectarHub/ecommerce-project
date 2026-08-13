@@ -28,7 +28,7 @@ describe('Product component', () => {
 
         expect(
             screen.getByTestId('product-image')
-        ).toHaveAttribute('scr','images/products/athletic-cotton-socks-6-pairs.jpg');
+        ).toHaveAttribute('src','images/products/athletic-cotton-socks-6-pairs.jpg');
 
         expect(
             screen.getByTestId('product-rating-stars-image')
