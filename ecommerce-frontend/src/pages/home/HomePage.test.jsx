@@ -96,5 +96,5 @@ describe('HomePage Component', () => {
         quantity: 3
         });
         expect(loadCart).toHaveBeenCalledTimes(2);
-        })
+    });
 })
